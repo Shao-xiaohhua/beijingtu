@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+}
+.one{
+  z-index: 88888888888888;
+  width: 50%;
+  height: 900px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: red;
+}
+.one.yi{
+  background: url("beoplaya9_multiroom_wireless_sound.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-position: 0 0;
+}
+.one.er{
+  background: url("environment2_multiroom_wireless_sound.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-position: 0 0;
+}
+.one.san{
+  background: url("beosoundmoment_multiroom_wireless_sound.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-position: 0 0;
+}
+.one.si{
+  background: url("environment4_multiroom_wireless_sound.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-position: 0 0;
+}
+.one.wu{
+  background: url("beovisionavant_multiroom_wireless_sound.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-position: 0 0;
+}
+.one.liu{
+  background: url("environment5_multiroom_wireless_sound.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-position: 0 0;
+}
+
+.two{
+  width: 50%;
+  height:900px;
+  position: fixed;
+  top:0;
+  right: 0;
+  background: red;
+  ul{
+    width: 100%;
+    height: 100%;
+    background: forestgreen;
+   li{
+     position: absolute;
+     top: 0;
+     left: 0;
+     float: left;
+     width: 100%;
+     height: 100%;
+     background: deepskyblue;
+   }
+    li:nth-child(1){
+      background: url("environment1_multiroom_wireless_sound.jpg");
+    }
+    li:nth-child(2){
+      background: url("beosoundessence_multiroom_wireless_sound.jpg");
+    }
+    li:nth-child(3){
+      background: url("environment3_multiroom_wireless_sound.jpg");
+    }
+    li:nth-child(4){
+      background: url("beosoundmoment_multiroom_wireless_sound_2_jpg.jpg");
+    }
+    li:nth-child(5){
+      background: url("products2_multiroom_wireless_sound.jpg");
+    }
+    li:nth-child(6){
+      background: url("beomusicapp_multiroom_wireless_sound.jpg");
+    }
+    .tu.now{
+      z-index: 80;
+      transition: transform 0.6s ease;
+      transform: translateX(0);
+    }
+    .tu.left{
+      transform: translateX(-100%);
+    }
+    .tu.right{
+      transform: translateX(100%);
+    }
+  }
+
+}
+
+.san{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:auto;
+  background: whitesmoke;
+  border-radius: 50%;
+  z-index: 999999999999999999999999;
+  text-align: center;
+  line-height: 100px;
+  font-family: "微软雅黑";
+  font-size: 50px;
+}
